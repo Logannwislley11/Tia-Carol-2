@@ -75,7 +75,7 @@ body {
 .letter {
   position: relative;
   background-color: #fff;
-      width: 85vw;
+    width: 85vw;
     height: auto;
     padding: 20px;
   top: 5%;
@@ -93,7 +93,7 @@ body {
   left: 5%;
   width: 90%;
   background-color: transparent;
-  font-size: 1.2rem;
+    font-size: 1rem;
   text-align: center;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .reset {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .reset button {
