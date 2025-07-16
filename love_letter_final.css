@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .zoom-wrapper {
-    transform: scale(0.90); /* reduz um pouco mais o zoom */
+    transform: none; /* reduz um pouco mais o zoom */
     transform-origin: top center;
     margin-top: 5vh;
   }
