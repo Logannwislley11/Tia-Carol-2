@@ -35,8 +35,8 @@ body {
 
 #envelope {
   position: relative;
-  width: 400px;
-  height: 280px;
+    width: 90vw;
+    height: auto;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   background-color: #d9534f;
@@ -75,15 +75,16 @@ body {
 .letter {
   position: relative;
   background-color: #fff;
-  width: 360px;
-  height: 250px;
+      width: 85vw;
+    height: auto;
+    padding: 20px;
   top: 5%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
   box-shadow: 0 2px 26px rgba(0, 0, 0, 0.12);
   font-family: "Dancing Script", cursive;
-  padding: 20px;
+  
   box-sizing: border-box;
 }
 
@@ -127,7 +128,7 @@ body {
 
 .reset {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .reset button {
@@ -149,6 +150,6 @@ body {
   color: #fff;
 }
   html, body {
-    overflow-y: auto; /* garante que o topo não corte */
+    overflow-y: hidden; /* garante que o topo não corte */
   }
 
