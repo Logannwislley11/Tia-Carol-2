@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+  .zoom-wrapper {
+    transform: scale(1.05); /* reduz um pouco mais o zoom */
+    transform-origin: top center;
+    margin-top: 5vh;
+  }
+  
 body {
   background-color: #f0e6f6;
   margin: 0;
@@ -35,6 +42,9 @@ body {
   background-color: #d9534f;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
+
+  margin-top: 20px; /* empurra a carta pra baixo */
+
 }
 
 .front {
@@ -138,11 +148,7 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
-
-@media (max-width: 768px) {
-  .zoom-wrapper {
-    transform: scale(1.1); /* Zoom menor no celular */
-    transform-origin: top center;
-    padding-top: 10vh; /* Mantém espaço superior proporcional */
+  html, body {
+    overflow-y: auto; /* garante que o topo não corte */
   }
-}
+
