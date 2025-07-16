@@ -138,3 +138,18 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
+@media screen and (max-width: 480px) {
+  .words {
+    font-size: 1rem;
+  }
+
+  .reset button {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .letter {
+    transform: translateY(-120px);
+  }
+}
